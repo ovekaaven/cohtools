@@ -8,11 +8,11 @@ readpigg
 
 To list the contents of a .pigg file:
 
-python readpigg.py -l <piggfile>
+python readpigg.py -l file.pigg
 
 To unpack a single file:
 
-python readpigg.py <piggfile> <file>
+python readpigg.py file.pigg file
 
 To unpack all files:
 
@@ -47,8 +47,6 @@ parse the whole file.
 To list the contents of a .bin file:
 
 python readbin.py -l file.bin
-
-NOTE: listing contents currently does not work for all .bin files.
 
 To parse a single item in a .bin file:
 
